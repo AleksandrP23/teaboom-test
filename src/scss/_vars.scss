@@ -1,0 +1,18 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Open Sans", sans-serif;
+  --content-width: 1170px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --accent: #f5d730;
+  --accent-soft: #e9f2c3;
+  --ink: #202020;
+  --muted: #707070;
+  --line: #f0f0f0;
+  --surface: #f6f7f8;
+  --sale: #d01818;
+}
